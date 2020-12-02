@@ -1,0 +1,131 @@
+
+.openerp.openerp_webclient_container, .openerp .oe_form .oe_form_embedded_html {
+	overflow: hidden !important  /*<---// remove socrollbar*/
+}
+
+
+.openerp .oe_kanban_view.oe_kanban_ungrouped .oe_kanban_column .oe_kanban_record {
+	margin: 4px !important;
+}
+
+.oe_secondary_menus_container ul {
+	font-size: 14px !important;
+	line-height: unset !important;
+}
+
+
+#oe_main_menu_navbar li a {
+	font-size: 15px !important;
+}
+
+.openerp .oe_secondary_menu_section {
+border-bottom: 2px solid #7c7bad; /*#7c7bad*/
+font-size: 15px;
+}
+
+.rtl .openerp .oe_form td.oe_form_group_cell_label {
+    vertical-align: middle;
+}
+
+.rtl .openerp .oe_form .oe_input_icon {
+    margin-right: -20px !important;
+    vertical-align: middle;
+}
+
+.openerp .oe_kanban_view .oe_kanban_vignette {
+    border: 1px solid #7c7bad;
+	background-color: #fafafa;
+}
+
+.openerp .oe_kanban_view .oe_kanban_column li {
+	overflow: hidden;
+}
+.openerp .oe_title.oe_left {
+	overflow: unset !important;
+}
+
+.openerp .oe_kanban_view .oe_kanban_column li a {
+	font-size: small;
+}
+
+.openerp .oe_view_manager .oe_view_manager_switch li {
+	line-height:26px !important;
+}
+
+.dl-horizontal dt {
+	text-align: right !important;
+}
+
+.openerp .oe_form_field_radio.oe_vertical label {
+	margin-left: unset !important;
+	margin-right: 5px !important;
+}
+
+.ui-datepicker {
+	width: 20em !important;
+}
+
+openerp .oe_form .oe_form_button {
+    margin: 5px 30px 0 0 !important;
+}
+
+.openerp ul.oe_form_status li > .arrow span {
+	margin-top:4px !important;
+}
+
+.openerp .oe_kanban_view .oe_view_nocontent .oe_view_nocontent_content {
+	margin-left: auto !important;
+	margin-right: 80px;
+}
+
+.openerp .oe_view_nocontent .oe_view_nocontent_create:before {
+	margin-left: auto !important;
+	margin-right: -75px;
+	transform: rotateY(180deg);
+	
+}
+
+.openerp .oe_searchview_drawer .oe_searchview_section ul {
+	display: inline-block !important;
+	clear: both;
+}
+
+.openerp .oe_form .oe_notebook_page .oe_form_field_text textarea {
+    direction: ltr !important;
+    font-family: ubuntu mono !important;
+    font-size: 14px !important;
+}
+
+.navbar .oe_topbar_name {
+	line-height: 12px !important;
+}
+
+.oe_module_vignette {
+    padding: 8px !important;
+    border: 1px solid silver !important;
+    background-color: whitesmoke !important;
+}
+.openerp .oe_about .user-details .user-info-block {
+	top: 105px !important;
+}
+
+.openerp .oe_view_nocontent {
+	margin-right: 80px;
+}
+
+.openerp .oe_form_sheetbg.openerp_mail_group_sheet .oe_form_sheet {
+	padding: 16px !important;
+}
+
+.openerp .oe_kanban_view .oe_kanban_salesteams_avatars {
+	text-align: center;
+}
+
+.openerp .oe_kanban_view .oe_kanban_crm_salesteams .oe_items_list div {
+	float: right !important;
+}
+
+.openerp .oe_kanban_view .oe_kanban_crm_salesteams .oe_items_list div a:nth-child(2n) {
+	left: unset !important;
+	right: 90px;
+}
